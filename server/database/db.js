@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
-// mongoose.connect('mongodb+srv://user:user@cluster0.gaqmv3e.mongodb.net/curd_app?retryWrites=true&w=majority')
-mongoose.connect('mongodb://0.0.0.0:27017/crud_app')
+mongoose.connect('mongodb+srv://user:user@cluster0.gaqmv3e.mongodb.net/crudapp')
 
 const db = mongoose.connection
 
